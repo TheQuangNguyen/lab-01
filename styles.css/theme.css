@@ -1,7 +1,16 @@
-section > article:first-child { 
+header { 
+  background: red;
+}
+nav { 
+  background: blue;
+}
+footer { 
+  background: brown;
+}
+section > div:first-child { 
   background: green;
 }
-section > article:last-child { 
+section > div:last-child { 
   background: lightgreen;
 }
 figure > div:first-child { 
@@ -16,12 +25,34 @@ figure> div:nth-child(3) {
 figure> div:last-child { 
   background: lightsalmon;
 }
-header { 
-  background: red;
+
+/* jquery to change the colors for bigger screen */
+
+.color1 { 
+  background: papayawhip;
+  display: hidden;
 }
-nav { 
-  background: blue;
+.color2 { 
+  background: aquamarine;
 }
-footer { 
-  background: brown;
+.color3 { 
+  background: beige;
+}
+.color4 { 
+  background: chartreuse; 
+}
+.color5 { 
+  background: darkcyan;
+}
+.color6 { 
+  background: fuchsia;
+}
+.color7 { 
+  background: gold;
+}
+.color8 { 
+  background: honeydew;
+}
+.color9 { 
+  background: mediumpurple;
 }
