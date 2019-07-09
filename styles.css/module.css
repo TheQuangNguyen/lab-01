@@ -1,5 +1,5 @@
 @media (min-width: 480px) and (max-width: 767px) { 
-  section > article { 
+  section > div { 
     height: calc(100% / 2);
     width: 100%;
   }
@@ -9,29 +9,29 @@
     float: left;
   }
   header > p { 
-    padding-top: 30px;
-    padding-bottom: 30px;
+    vertical-align: middle;
+    line-height: 75px;
   }
   nav > p { 
-    padding-top: 67px; 
-    padding-bottom: 67px;
+    vertical-align: middle;
+    line-height: 150px;
   }
-  article > p { 
-    padding-top: 55px;
-    padding-bottom: 55px;
+  section > div > p { 
+    vertical-align: middle;
+    line-height: 125px;
   }
   figure > div > p { 
-    padding-top: 110px;
-    padding-bottom: 110px;
+    vertical-align: middle;
+    line-height: 250px;
   }
   footer > p { 
-    padding-top: 32px;
-    padding-bottom: 32px;
+    vertical-align: middle;
+    line-height: 80px;
   }
 }
 
 @media (min-width: 768px) { 
-  section > article { 
+  section > div { 
     float: left;
     height: 200px;
     width: calc(100% / 2);
@@ -42,24 +42,24 @@
     width: calc(100% / 4);
   }
   header > p { 
-    padding-top: 42px;
-    padding-bottom: 42px;
+    vertical-align: middle;
+    line-height: 100px;
   }
   nav > p { 
-    padding-top: 292px; 
-    padding-bottom: 292px;
+    vertical-align: middle;
+    line-height: 600px;
   }
-  article > p { 
-    padding-top: 92px;
-    padding-bottom: 92px;
+  section > div > p { 
+    vertical-align: middle;
+    line-height: 200px;
   }
   figure > div > p { 
-    padding-top: 117px;
-    padding-bottom: 117px;
+    vertical-align: middle;
+    line-height: 250px;
   }
   footer > p { 
-    padding-top: 67px;
-    padding-bottom: 67px;
+    vertical-align: middle;
+    line-height: 150px;
   }
 }
 
