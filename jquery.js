@@ -8,8 +8,8 @@ function checkScreenSize() {
     $('section > div:last-child').addClass('color4');
     $('figure > div:first-child').addClass('color5');
     $('figure > div:nth-child(2)').addClass('color6');
-    $('figure> div:nth-child(3)').addClass('color7');
-    $('figure> div:last-child').addClass('color8');
+    $('figure > div:nth-child(3)').addClass('color7');
+    $('figure > div:last-child').addClass('color8');
     $('footer').addClass('color9');
   } else {
     $('header').removeClass('color1');
