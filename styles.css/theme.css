@@ -1,0 +1,27 @@
+section > article:first-child { 
+  background: green;
+}
+section > article:last-child { 
+  background: lightgreen;
+}
+figure > div:first-child { 
+  background: purple;
+}
+figure > div:nth-child(2) { 
+  background: violet; 
+}
+figure> div:nth-child(3) { 
+  background: pink;
+}
+figure> div:last-child { 
+  background: lightsalmon;
+}
+header { 
+  background: red;
+}
+nav { 
+  background: blue;
+}
+footer { 
+  background: brown;
+}
