@@ -1,0 +1,81 @@
+@media (min-width: 480px) and (max-width: 767px) { 
+  header { 
+    height: 75px;
+    width: 100vw;   
+  }
+  nav { 
+    height: 150px;
+    width: 100vw;
+  }
+  section { 
+    height: 250px;
+    width: 100vw;
+    overflow: hidden;
+  }
+  figure { 
+    height: 500px;
+    width: 100vw;
+    overflow: hidden;
+  }
+  footer { 
+    height: 80px;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) { 
+  header { 
+    height: 100px;
+    width: 100vw;   
+  }
+  nav { 
+    float: left;
+    height: 600px;
+    width: 20%;
+  }
+  section { 
+    float: left;
+    height: 200px;
+    width: 80%;
+  }
+  figure { 
+    float: left;
+    height: 250px;
+    width: 80%;
+    overflow: hidden;
+  }
+  footer { 
+    float: left;
+    height: 150px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 960px) { 
+  header { 
+    height: 100px;
+    width: 960px;   
+  }
+  nav { 
+    float: left;
+    height: 600px;
+    width: 200px;
+  }
+  section {
+    float: left;
+    height: 200px;
+    width: 760px;
+    overflow: hidden;
+  } 
+  figure { 
+    float: left;
+    height: 250px;
+    width: 760px;
+    overflow: hidden;
+  }
+  footer { 
+    float: left;
+    height: 150px;
+    width: 760px;
+  }
+}
